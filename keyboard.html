@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./css/style.css">
+  <title>KeyBoard Challange</title>
+</head>
+
+<body>
+
+  <main>
+    <section class="welcome-msg">
+    </section>
+
+
+    <section class="keyboard-containter">
+
+      <div class="keyboard">
+
+        <div class="lightstrip">
+          <div class="bulb">
+            <h6>i</h6>
+            <button></button>
+          </div>
+          <div class="bulb">
+            <h6>i</h6>
+            <button></button>
+          </div>
+          <div class="bulb">
+            <h6>A</h6>
+            <button></button>
+          </div>
+        </div>
+        <!--end lightstrip-->
+        <div class="padder"></div>
+        <div class="keypads">
+          <div class="main-keys">
+            <!-- f1-12 keys-->
+            <div class="keys">
+              <p id="escape" class="key-size1">esc</p>
+              <span class="key-size1"></span>
+              <p id="f1" class="key-size1">F1</p>
+              <p id="f2" class="key-size1">F2</p>
+              <p id="f3" class="key-size1">F3</p>
+              <p id="f4" class="key-size1">F4</p>
+              <span class="sp2"></span>
+              <p id="f5" class="key-size1">F5</p>
+              <p id="f6" class="key-size1">F6</p>
+              <p id="f7" class="key-size1">F7</p>
+              <p id="f8" class="key-size1">F8</p>
+              <span class="sp2"></span>
+              <p id="f9" class="key-size1">F9</p>
+              <p id="f10" class="key-size1">F10</p>
+              <p id="f11" class="key-size1">F11</p>
+              <p id="f12" class="key-size1">F12</p>
+            </div>
+            <div class="padder"></div>
+            <!--number row-->
+            <div class="keys">
+              <p id="backquote" class="key-size2">¬<br>`|</p>
+              <p id="digit1" class="key-size2">1</p>
+              <p id="digit2" class="key-size2">2</p>
+              <p id="digit3" class="key-size2">3</p>
+              <p id="digit4" class="key-size2">4</p>
+              <p id="digit5" class="key-size2">5</p>
+              <p id="digit6" class="key-size2">6</p>
+              <p id="digit7" class="key-size2">7</p>
+              <p id="digit8" class="key-size2">8</p>
+              <p id="digit9" class="key-size2">9</p>
+              <p id="digit0" class="key-size2">0</p>
+              <p id="minus" class="key-size2">-</p>
+              <p id="equal" class="key-size2">=</p>
+              <p id="Backspace" class="key-size3 small-font">Backspace</p>
+            </div>
+            <!--q row-->
+            <div class="keys">
+              <p id="tab" class="key-size4">Tab</p>
+              <p id="keyq" class="key-size2">Q</p>
+              <p id="keyW" class="key-size2">W</p>
+              <p id="keyE" class="key-size2">E</p>
+              <p id="keyR" class="key-size2">R</p>
+              <p id="keyT" class="key-size2">T</p>
+              <p id="keyY" class="key-size2">Y</p>
+              <p id="keyU" class="key-size2">U</p>
+              <p id="keyI" class="key-size2">I</p>
+              <p id="keyO" class="key-size2">O</p>
+              <p id="keyP" class="key-size2">P</p>
+              <p id="bracketleft" class="key-size2">[</p>
+              <p id="bracketright" class="key-size2">]</p>
+              <p id="enter" class="key-size4 return-top">Return</p>
+            </div>
+            <!-- a row-->
+            <div class="keys">
+              <p id="CAPSLOCK" class="key-size5 small-font">Caps<BR>Lock</p>
+              <p id="keya" class="key-size2">A</p>
+              <p id="keys" class="key-size2">S</p>
+              <p id="keyd" class="key-size2">D</p>
+              <p id="keyf" class="key-size2">F</p>
+              <p id="keyg" class="key-size2">G</p>
+              <p id="keyh" class="key-size2">H</p>
+              <p id="keyj" class="key-size2">J</p>
+              <p id="keyk" class="key-size2">K</p>
+              <p id="keyl" class="key-size2">L</p>
+              <p id="semicolon" class="key-size2">;</p>
+              <p id="quote" class="key-size2">'</p>
+              <p id="backslash" class="key-size2">#</p>
+              <p id="enter" class="key-size6 return-bottom"></p>
+            </div>
+            <!-- z row -->
+            <div class="keys">
+              <p id="shiftleft" class="key-size8">Shift</p>
+              <p id="intlbackslash" class="key-size2">\</p>
+              <p id="keyz" class="key-size2">Z</p>
+              <p id="keyx" class="key-size2">X</p>
+              <p id="keyc" class="key-size2">C</p>
+              <p id="keyv" class="key-size2">V</p>
+              <p id="keyb" class="key-size2">B</p>
+              <p id="keyn" class="key-size2">N</p>
+              <p id="keym" class="key-size2">M</p>
+              <p id="comma" class="key-size2">,</p>
+              <p id="period" class="key-size2">.</p>
+              <p id="slash" class="key-size2">/</p>
+              <p id="shiftright" class="key-size7">Shift</p>
+            </div>
+            <!-- space row -->
+            <div class="keys">
+              <p id="controlleft" class="key-size7">Ctrl</p>
+              <p id="osleft" class="key-size7"><img src="./images/windows.png"></p>
+              <p id="altleft" class="key-size7">Alt</p>
+              <p id="space" class="key-size-spacebar"></p>
+              <p id="altright" class="key-size7">Alt Gr</p>
+              <p id="OSRIGHT" class="key-size7"><img src="./images/windows.png"></p>
+              <p id="contextmenu" class="key-size7"><img src="./images/contMenu.png"> </p>
+              <p id="controlright" class="key-size7">Cltr</p>
+            </div>
+          </div>
+          <div class="direction-keys">
+            <div class="keys">
+            </div>
+            <div class="padder"></div>
+            <div class="keys">
+              <p id="INSERT" class="key-size2 small-font">Insert</p>
+              <p id="home" class="key-size2 small-font">Home</p>
+              <p id="pageup" class="key-size2 small-font">Page<br>Up</p>
+            </div>
+            <div class="keys">
+              <p id="delete" class="key-size2 small-font">Delete</p>
+              <p id="end" class="key-size2 small-font">End</p>
+              <p id="pagedown" class="key-size2 small-font">Page<br>Down</p>
+            </div>
+            <div class="keys">
+            </div>
+            <div class="keys">
+              <span class="sp2"></span><span class="sp2"></span><span class="sp2"></span>
+              <p id="arrowUp" class="key-size2">^</p>
+              <span class="sp2"></span><span class="sp2"></span><span class="sp2"></span>
+
+            </div>
+            <div class="keys">
+              <p id="arrowleft" class="key-size2">
+                <</p>
+                  <p id="arrowdown" class="key-size2">⌄</p>
+                  <p id="arrowright" class="key-size2">></p>
+            </div>
+          </div>
+          <div class="numpad">
+            <div class="keys">
+              <h2>Kensington</h2>
+            </div>
+
+            <div class="padder"></div>
+            <div class="keys">
+              <p id="numlock" class="key-size33 small-font">Num<br>Lock</p>
+              <p id="numpaddivide" class="key-size33">/</p>
+              <p id="numpadmultiply" class="key-size33">*</p>
+            </div>
+            <div class="keys">
+              <p id="numpad7" class="key-size33">7</p>
+              <p id="numpad8" class="key-size33">8</p>
+              <p id="numpad9" class="key-size33">9</p>
+            </div>
+            <div class="keys">
+              <p id="numpad4" class="key-size33">4</p>
+              <p id="numpad5" class="key-size33">5</p>
+              <p id="numpad6" class="key-size33">6</p>
+            </div>
+            <div class="keys">
+              <p id="numpad1" class="key-size33">1</p>
+              <p id="numpad2" class="key-size33">2</p>
+              <p id="numpad3" class="key-size33">3</p>
+            </div>
+            <div class="keys">
+              <p id="numpad0" class="key-size66">0</p>
+              <p id="numpadDECIMAL" class="key-size33">Del</p>
+            </div>
+          </div>
+          <div class="numpad-extra">
+            <div class="keys"></div>
+
+            <div class="padder"></div>
+            <div class="keys">
+              <p id="numpadsubtract" class="key-size100">-</p>
+            </div>
+            <div class="keys twoDeep">
+              <p id="numpadadd" class="key-size100">+</p>
+            </div>
+            <div class="keys twoDeep">
+              <p id="numpadenter" class="key-size100 small-font">E<br>n<br>t<br>e<br>r</p>
+            </div>
+          </div>
+        </div>
+        <!--end keyboard-->
+
+      </div>
+    </section>
+    <section class="code-container">
+      <div>
+        <h2>code</h2>
+        <p id="code"></p>
+      </div>
+      <div>
+        <h2>key</h2>
+        <p id="key"></p>
+      </div>
+      <div>
+        <h2>which</h2>
+        <p id="which"></p>
+      </div>
+      </div>
+  </main>
+
+
+
+
+
+  <script src="./scripts/script.js"></script>
+</body>
+
+</html>

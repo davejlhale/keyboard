@@ -1,0 +1,237 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.keyboard-containter {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    background-color: rgb(45, 45, 45);
+    padding-bottom: 15px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    ;
+}
+
+.keyboard {
+    width: 98%;
+    margin: auto;
+    background-color: rgb(45, 45, 45);
+    color: whitesmoke;
+    border-radius: 30px;
+
+}
+
+.lightstrip {
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+    justify-content: flex-end;
+    line-height: .5em;
+    ;
+}
+
+.padder {
+    width: 100%;
+    min-height: 10px;
+}
+
+.keypads {
+    display: flex;
+    width: 100%
+}
+
+.bulb {
+    width: 5%;
+    text-align: center;
+}
+
+.bulb button {
+    width: 1em;
+}
+
+.main-keys {
+    width: 66%;
+}
+
+.direction-keys {
+    width: 14%;
+    padding: 0 2%
+}
+
+.numpad {
+    width: 12%;
+}
+
+.numpad-extra {
+    width: 4%;
+
+}
+
+.code-container {
+    box-shadow: 3px 3px 4px rgba(55, 51, 51, 0.4);
+    gap: 2em;
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 15px 30px;
+    background-color: antiquewhite;
+    border: 1px solid rgb(127, 124, 124);
+}
+
+.code-container * {
+    flex: 1 1 100%;
+    min-height: 30px;
+    flex: 1 1 100%;
+}
+
+.code-container p {
+    background-color: white;
+}
+
+.numpad h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+
+}
+
+img {
+    width: 70%;
+    max-height: 25px;
+}
+
+p {
+    border: 2px solid black;
+    margin: 1px;
+    box-shadow: 2px 2px 2px black;
+    padding: 5px 0px 0px 10px;
+    
+}
+
+.keys {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    min-height: 40px;
+}
+
+.twoDeep {
+    min-height: 80px;
+}
+
+.direction-keys .small-font {
+    padding-left: 2px
+}
+
+.return-top {
+    border-bottom: 0;
+    box-shadow: 0px 5px 2px rgb(45, 45, 45), 2px 0px 2px black;
+}
+
+.return-bottom {
+    border-top: 0;
+}
+
+.small-font {
+    font-size: .65em;
+}
+
+
+
+.key-size2 {
+    width: 30%;
+    font-size: .65em;
+}
+
+.key-size1 {
+    width: 30%;
+}
+
+.key-size3 {
+    width: 60%;
+}
+
+.key-size4 {
+    width: 45%;
+}
+
+.key-size66 {
+    width: 66%
+}
+
+.key-size33 {
+    width: 33%;
+    font-size: .55em;
+}
+
+.key-size5 {
+    width: 50%;
+}
+
+.key-size6 {
+    width: 40%;
+}
+
+.key-size100 {
+    width: 100%
+}
+
+.key-size7 {
+    width: 90%;
+}
+
+.key-size8 {
+    width: 30%;
+}
+
+.key-size-spacebar {
+    width: 360%;
+}
+
+.sp2 {
+    width: 15%;
+}
+
+@media all and (max-width: 775px) {
+
+    .numpad-extra,
+    .numpad {
+
+        visibility: hidden;
+        display: none;
+    }
+
+    .main-keys {
+        width: 83%
+    }
+
+    .direction-keys {
+        width: 17%;
+    }
+}
+
+@media all and (max-width: 650px) {
+
+    .numpad-extra,
+    .numpad {
+        visibility: hidden;
+        display: none;
+    }
+
+    .main-keys {
+        width: 99%
+    }
+
+    .direction-keys {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@media all and (max-width: 517px) {
+    p {
+        font-size: .65em;
+    }
+}
